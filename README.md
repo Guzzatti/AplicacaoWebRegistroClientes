@@ -4,14 +4,14 @@ Este projeto é um sistema para registro de clientes e endereços, com uma inter
 
 ## Estrutura do Projeto
 
-client-address-app/
-|-- css/
-|   |-- styles.css
-|-- js/
-|   |-- script.js
-|-- index.html
-|-- INFO.txt
-|-- README.md
+client-address-app/ <br>
+|-- css/ <br>
+|   |-- styles.css <br>
+|-- js/ <br>
+|   |-- script.js <br>
+|-- index.html <br>
+|-- INFO.txt <br> 
+|-- README.md <br>
 
 ## Funcionalidades
 
