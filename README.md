@@ -35,7 +35,7 @@ client-address-app/ <br>
 
 1. **Baixe ou clone o repositório**:
     ```bash
-    git clone <URL_DO_REPOSITÓRIO>
+    git clone <https://github.com/Guzzatti/AplicacaoWebRegistroClientes>
     ```
 
 2. **Abra o arquivo `index.html` em seu navegador**.
