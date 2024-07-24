@@ -1,0 +1,154 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Corpo e container */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #B4B2B0;
+  color: #043E59;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+/* Container principal */
+.container {
+  width: 90%;
+  max-width: 1000px;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-top: 20px; /* Ajuste para o espaço superior */
+}
+
+/* Cabeçalhos */
+header {
+  text-align: center;
+  color: #00B9D1;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+/* Menu do Dashboard */
+.nav-menu {
+  display: flex;
+  justify-content: space-around;
+  background-color: #00B9D1;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.nav-menu a {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.nav-menu a:hover {
+  background-color: #043E59;
+}
+
+/* Formulários */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* Aumentar o espaço entre os campos do formulário */
+}
+
+label {
+  font-weight: bold;
+}
+
+input, button {
+  padding: 10px;
+  border: 1px solid #B4B2B0;
+  border-radius: 4px;
+  font-size: 1em;
+}
+
+input {
+  border-color: #00B9D1;
+}
+
+button {
+  background-color: #00B9D1;
+  color: #FFFFFF;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s;
+  margin: 10px 0; /* Adiciona espaço acima e abaixo dos botões */
+}
+
+button:hover {
+  background-color: #043E59;
+}
+
+/* Mensagens de erro */
+.error-message {
+  color: red;
+  text-align: center;
+}
+
+/* Rodapé */
+footer {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 0.9em;
+  color: #043E59;
+}
+
+/* Botões */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 1em;
+  color: #FFFFFF;
+  background-color: #00B9D1;
+  text-align: center;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  margin: 10px; /* Adiciona espaço ao redor dos botões */
+}
+
+.button:hover {
+  background-color: #043E59;
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+  .container {
+      width: 100%;
+      padding: 10px;
+  }
+
+  .nav-menu {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .nav-menu a {
+      margin: 5px 0;
+  }
+}
+
+
